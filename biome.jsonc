@@ -6,11 +6,15 @@
       "**",
       "!**/*.css",
       "!**/routeTree.gen.ts",
-      "!**/worker-configuration.d.ts"
+      "!**/worker-configuration.d.ts",
+      "!**/convex/_generated"
     ]
   },
   "linter": {
     "rules": {
+      "suspicious": {
+        "noConsole": "off"
+      },
       "style": {
         "noHeadElement": "off"
       },

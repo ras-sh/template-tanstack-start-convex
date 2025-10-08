@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "~/convex/*": ["./convex/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

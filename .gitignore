@@ -28,7 +28,6 @@ next-env.d.ts
 .tanstack/
 .output/
 .nitro/
-.wrangler/
 
 # Debug
 npm-debug.log*

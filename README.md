@@ -9,7 +9,6 @@
 - **Optimistic Updates** - Instant UI feedback
 - **TypeScript** - End-to-end type safety
 - **Tailwind CSS v4** + **@ras-sh/ui** - Modern styling and components
-- **Cloudflare Workers** - Edge deployment ready
 
 Includes a working todo list demo showing Convex integration, custom hooks, and SSR patterns.
 
@@ -27,7 +26,7 @@ pnpm dev               # Start dev servers
 2. Add queries/mutations in `convex/` directory
 3. Create custom hooks in `src/hooks/` with optimistic updates
 4. Build routes in `src/routes/` with SSR loaders
-5. Update `package.json`, `wrangler.jsonc`, and branding assets
+5. Update `package.json` and branding assets
 
 ## Scripts
 
@@ -38,8 +37,6 @@ pnpm dev               # Start dev servers
 | `pnpm dev:convex` | Start only Convex dev server |
 | `pnpm build` | Build for production |
 | `pnpm preview` | Preview production build |
-| `pnpm deploy` | Deploy to Cloudflare Workers |
-| `pnpm cf-typegen` | Generate Cloudflare Workers types |
 | `pnpm check-types` | Run TypeScript type checking |
 | `pnpm check` | Run linter checks |
 | `pnpm fix` | Auto-fix linting issues |
@@ -62,8 +59,6 @@ convex/
 ## Deployment
 
 **Convex:** `npx convex deploy` then set `VITE_CONVEX_URL` in your frontend deployment
-
-**Frontend:** `pnpm deploy` to Cloudflare Workers
 
 ## License
 

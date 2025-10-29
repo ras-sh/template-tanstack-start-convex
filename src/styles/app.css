@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
-@source "../../node_modules/@ras-sh/ui";
-@import "@ras-sh/ui/globals.css";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
 
-@import '@fontsource-variable/geist';
-@import '@fontsource-variable/geist-mono';
+@import "@ras-sh/ui/globals.css";
+@source "../../node_modules/@ras-sh/ui";
 
 @theme inline {
-  --font-sans: 'Geist Variable', sans-serif;
-  --font-mono: 'Geist Mono Variable', monospace;
+  --font-sans: "Geist Variable", sans-serif;
+  --font-mono: "Geist Mono Variable", monospace;
 }
